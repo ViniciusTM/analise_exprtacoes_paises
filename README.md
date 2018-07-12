@@ -1,28 +1,24 @@
-# Análise do Perfil de Exportações dos Paı́ses
+# Clustering Analysis on Countries Export Strategy
 
-Trabalho relativo a matéria de Aprendizado de Máquina lecionada na UMFMG. Dados obtidos no site 
-https://atlas.media.mit.edu/en/resources/data/
-## Resumo
-Nesse trabalho algumas técnicas de aprendizado não supervisionado foram aplicadas em um conjunto de dados de exportações de paises.
-O intuito era encontrar algum agrupamento natural que explicasse a dinâmica de comercio internacional através de um número 
-reduzido de estratégias de exportações. Os dados de exportações são relativos a classes de produtos de acordo com 
-a classificação Harmonic "Harmonized Commodity Description and Coding Systems". As principais técnicas abordados nesse estudo
-são:
+This work is the result of a project developed for a Machine Learning class taught at _Universidade Federal de Minas Gerais_. Data gathered from: https://atlas.media.mit.edu/en/resources/data/
+
+## Abstract
+In the word some techniques from data analysis and unsupervised learning were applied to a countries exports dataset in order to find a handful of strategies that explain coutries behavior.
+The export data are relative to product classes based on the first two digits of the Harmonized Commodity Description and Coding Systems. The techniques applied in this project are:
+
 * Principal component analysis (PCA)
 * t-distributed stochastic neighbor embedding (t-SNE)
-* Agrupamento Hierárquico
+* Hierarchical Clustering
 * K-means
 
-## Estrutura
-### dados
-Arquivos baixados atrvés do site https://atlas.media.mit.edu/en/resources/data/. Para rodar o script de pre-processamento é
-necessário ter essa pasta.
+## structure 
+### data
+folder with downloaded data from the site https://atlas.media.mit.edu/en/resources/data/. Used on the preprocessing script;
 ### data_preprocessing.py
-Script que faz o preprocessamento dos arquivo e salva em formato de pandas.DataFrame. Para que o código presente no notebook
-funcione é necessário rodar esse arquivo
+Python script for data prepeocessing. Needs to be executed before runing the code on the notebook
 ### clustering.py
-Arquivo importado dentro do notebook com algumas funções utilizadas para fazer o agrupamento dos países.
-### Análise_países.ipynv
-Notebook com passo a passo para geração das figuras presentes no relatório.
-### Relatório.pdf
-Relatório final do trabalho, possui todas as análises e conclues.
+Python code with some functions used on the notebook
+### Analysis.ipynv
+Notebook with project analysis and graph plotting.
+### Report.pdf
+Final report
