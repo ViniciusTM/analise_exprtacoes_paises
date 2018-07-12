@@ -13,9 +13,9 @@ The export data are relative to product classes based on the first two digits of
 
 ## structure 
 ### data
-folder with downloaded data from the site https://atlas.media.mit.edu/en/resources/data/. Used on the preprocessing script;
+Folder with downloaded data from the site https://atlas.media.mit.edu/en/resources/data/. Used on the preprocessing script;
 ### data_preprocessing.py
-Python script for data prepeocessing. Needs to be executed before runing the code on the notebook
+Python script for data preprocessing. Needs to be executed before running the code on the notebook
 ### clustering.py
 Python code with some functions used on the notebook
 ### Analysis.ipynv
